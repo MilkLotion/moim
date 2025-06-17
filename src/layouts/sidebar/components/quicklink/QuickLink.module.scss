@@ -1,0 +1,13 @@
+@use "../../shared" as *;
+
+.linkItem {
+  @include link-item;
+
+  .linkLabel {
+    @include link-label;
+  }
+}
+.linkItemActivate {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}

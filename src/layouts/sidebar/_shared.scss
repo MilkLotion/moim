@@ -1,0 +1,27 @@
+@mixin link-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  // padding: 10px 12px;
+  padding: 5px 12px;
+  border-radius: 8px;
+
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+    // font-weight: 500;
+  }
+}
+
+@mixin link-label {
+  line-height: 1.5rem;
+}
+
+@mixin top-line {
+  border-top: 1px solid #e3e5e8;
+  padding-top: 12px;
+  margin-top: 12px;
+}

@@ -1,0 +1,13 @@
+@use "../../shared" as *;
+
+.clubContainer {
+  @include top-line;
+
+  .clubTitle {
+    padding: 12px 16px;
+
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+}

@@ -24,8 +24,10 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": "src",
     "paths": {
+      "@icons/*": ["assets/icons/*"],
       "@components/*": ["components/*"],
-      "@layouts/*": ["layouts/*"]
+      "@layouts/*": ["layouts/*"],
+      "@interfaces/*": ["interfaces/*"]
     }
   },
   "include": ["src"]
